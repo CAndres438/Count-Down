@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: hsl(235, 16%, 14%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+}
+
+.timer div:first-child {
+  text-align: center;
+}
+
+.section h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.timer div:first-child p {
+  color: #F8F8F8;
+}
+
+.timer-container {
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.section {
+  background-color: hsl(234, 17%, 12%);
+  color: hsl(345, 95%, 68%);
+  font-weight: 700;
+  padding: 1.2rem;
+  font-size: 2.4rem;
+  border-radius: 4px;
+}
+
+section p small {
+  color: hsl(237, 18%, 59%);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1;
+}
