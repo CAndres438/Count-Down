@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CountdownStyled = styled.section`
-    background-image: url('https://res.cloudinary.com/daalu/image/upload/v1650271669/Recursos_Dark/bg-stars_qvd3nh.svg');
+    background-image: url('https://res.cloudinary.com/cortiz/image/upload/v1650271669/Recursos_Dark/bg-stars_qvd3nh.svg');
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@ export const CountdownStyled = styled.section`
 `;
 
 export const FooterStyled = styled.footer`
-    background-image: url('https://res.cloudinary.com/daalu/image/upload/v1650271669/Recursos_Dark/pattern-hills_khbgl6.svg');
+    background-image: url('https://res.cloudinary.com/cortiz/image/upload/v1650271669/Recursos_Dark/pattern-hills_khbgl6.svg');
     display: flex;
     justify-content: center;
     padding: 4rem 0;
